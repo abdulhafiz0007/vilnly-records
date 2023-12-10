@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    list-style: none;
+    text-decoration-line: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'FuturaPT', 'Arial', sans-serif;
+    margin: 0;
+    background-color: #fff;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('./futura-font/FuturaPT-Bold.woff');
+    src: url('./futura-font/FuturaPT-Bold.woff2');
+    src: url('./futura-font/FuturaPT-Light.woff');
+    src: url('./futura-font/FuturaPT-Light.woff2');
+    src: url('./futura-font/FuturaPT-Medium.woff');
+    src: url('./futura-font/FuturaPT-Medium.woff2');
+}
+
+.visuall-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: rect(0 0 0 0);
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+section {
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+
+
+.site-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000;
+}
+
+.header-box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navbar-list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.home-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.site-logo {
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+
+/* hero section starts  */
+
+.hero-section {
+    margin-top: 85px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.hero-section-inner {
+    padding-top: 91px;
+    padding-bottom: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-box-content {
+    width: 440px;
+}
+
+.hero-main-heading {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.hero-main-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    border-left: 3px solid #888;
+    color: #777;
+}
+
+.hero-main-link {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    color: #FFF;
+    background: #EA625C;
+}
+
+
+
+/* spirits section starts  */
+
+.spirits-section {
+    padding: 70px;
+}
+
+.spirits-box-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.spirits-box-list-item {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.spirits-box-heading {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.spirits-box-text {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 160%;
+    color: #333;
+}
+
+.spirits-box-link {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #EA625C;
+}
+
+.spirits-extra-div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.spirits-extra-div span {
+    width: 40px;
+    height: 3px;
+    background-color: #EA625C;
+}
+
+.dots-img {
+    width: 44px;
+    height: 8px;
+}
+
+/* brands section starts  */
+
+.brands-section {
+    padding: 70px 0;
+}
+
+.brands-box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brands-box-list {
+    width: 490px;
+}
+
+.brands-box-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%; 
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.brands-box-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-bottom: 50px;
+    padding-left: 40px;
+    border-left: 3px solid #888;
+    color: #777;
+}
+
+.brands-box-link {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+    padding: 16px 90px;
+    background-color: #EA625C;
+}
+
+.collections-img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
